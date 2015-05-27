@@ -1,0 +1,49 @@
+html,body{
+    background: #EBEBEB;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover,a:focus{
+    outline: none;
+    text-decoration: none;
+}
+
+.breadcrumb_nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    z-index: 9999;
+    border-radius: 0px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.page-content{
+    padding: 50px 20px;
+}
+
+.pagination-self{
+ margin: 0px;
+}
+
+/*添加文章*/
+.page-content .lanmu{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.page-content .lanmu .form-control{
+    width: 49%;
+
+}
+
+.table .input-lenght{
+    width: 60px;
+}

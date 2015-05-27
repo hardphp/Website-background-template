@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>添加导航</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/content.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--路径导航-->
+<ol class="breadcrumb breadcrumb_nav">
+    <li>首页</li>
+    <li>文章管理</li>
+    <li class="active">添加导航</li>
+</ol>
+<!--路径导航-->
+
+<div class="page-content">
+    <div class="panel panel-default">
+        <div class="panel-heading">添加导航</div>
+        <div class="panel-body">
+            <form>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-9">
+
+                            <div class="form-group clearfix">
+                                <label>所属分类</label>
+
+                                <select class="form-control pull-left" name="cate_id">
+                                    <option value="1">网站开发</option>
+                                    <option value="2">--|HTML5</option>
+                                    <option value="3">--|CSS3</option>
+                                    <option value="4">--|PHP</option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="title">导航名称</label>
+                                <input type="text" class="form-control" id="title" name="title" placeholder="">
+                            </div>
+
+                             <div class="form-group">
+                                <label for="title">导航网址</label>
+                                <input type="text" class="form-control" id="title" name="title" placeholder="">
+                            </div>
+
+
+                            <div class="form-group">
+                                <label>导航描述</label>
+                                <textarea class="form-control" rows="3" name="descript"></textarea>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3"></div>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </div>
+
+
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
